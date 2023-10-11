@@ -12,6 +12,7 @@
 
 בקורס נציג בכל שבוע מספר בעיות של חלוקת משאבים, נגדיר את העקרונות הצריכים להתקיים כדי שאנשים ישתפו פעולה, ונציג אלגוריתמים הפותרים את הבעיה תוך התחשבות בעקרונות אלה. לפרטים ראו:
 
+* [הקלטות הקורס משנת ה'תשפ"ג](https://www.youtube.com/playlist?list=PLM9fKcsATjxgK9M_SyJr3mYdsxKqvl7Cz)
 * [סילבוס](syllabus.pdf)
 * [כללי חישוב הציון בקורס](grade-rules.md)
 * [תקנון היושר של המחלקה](https://www.ariel.ac.il/wp/cs/wp-content/uploads/sites/88/2020/08/Guidelines-for-Academic-Integrity.pdf)
