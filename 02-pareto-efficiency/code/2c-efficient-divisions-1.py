@@ -12,6 +12,7 @@ import cvxpy
 
 print("\n\n\nPROBLEM #1")
 print("Three resources (Wood, Oil, Steel) has to be divided among two people with values:")
+
 print("80 19 1")
 print("60 1 39")
 
