@@ -40,7 +40,7 @@ print("optimal var", x.value, y.value)
 
 
 # Form and solve an unbounded problem.
-prob = cvxpy.Problem(cvxpy.Maximize(x+y), [])
+prob = cvxpy.Problem(cvxpy.Maximize(x+y), [x+y >= 5])
 prob.solve()  # Returns the optimal value.
 
 print("\nstatus:", prob.status)
