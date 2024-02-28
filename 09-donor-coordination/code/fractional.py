@@ -11,7 +11,7 @@ SINCE:  2019-11
 import cvxpy
 import functools
 
-# There are 4 projects, denoted by a, b, c, d.
+# There are 4 issues, denoted by a, b, c, d.
 # The same letters denote the budget allocated to them.
 allocations = cvxpy.Variable(4)
 a, b, c, d = allocations
@@ -36,8 +36,8 @@ utility_product = functools.reduce(lambda a,b: a*b, utility_values)
 print("PRODUCT: {}".format(utility_product))
 i=0
 print("Citizen {} should donate  {} to a and {} to b".format(i,
-    a.value * donations[i] / utilities[i].value,
-    b.value * donations[i] / utilities[i].value,
+    a.value * 1 * donations[i] / utilities[i].value,
+    b.value * 1 * donations[i] / utilities[i].value,
     # d.value * donations[i] / utilities[i].value
 ))
 i+=1
