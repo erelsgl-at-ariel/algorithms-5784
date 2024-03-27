@@ -44,7 +44,7 @@ prob.solve()
 print("optimal value: ", prob.value)
 print("Utilities: ", [u.value for u in utilities])
 print(f"  Wood: {xw.value.round(2)},\n  oil: {xo.value.round(2)},\n  steel: {xs.value.round(2)}")
-
+# min_utility = 3
 
 print("\nITERATION 2: Max the smallest sum of two:")
 
@@ -59,7 +59,7 @@ prob.solve()
 print("optimal value: ", prob.value)
 print("Utilities: ", [u.value for u in utilities])
 print(f"  Wood: {xw.value.round(2)},\n  oil: {xo.value.round(2)},\n  steel: {xs.value.round(2)}")
-
+# min_utility_of_two = 7
 
 print("\nITERATION 3: Max the smallest sum of three")
 
@@ -75,6 +75,7 @@ prob.solve()
 print("optimal value: ", prob.value)
 print("Utilities: ", [u.value for u in utilities])
 print(f"  Wood: {xw.value.round(2)},\n  oil: {xo.value.round(2)},\n  steel: {xs.value.round(2)}")
+# min_utility_of_three = 12
 
 
 print("\nITERATION 4: Max the smallest sum of four")
