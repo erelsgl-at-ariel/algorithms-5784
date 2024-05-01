@@ -9,7 +9,6 @@ SINCE:  2019-11
 
 
 import cvxpy
-import functools
 
 # There are 4 projects, denoted by a, b, c, d.
 # The same letters denote the budget allocated to them.
